@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WorkingWithTextExercises
 {
@@ -6,7 +7,13 @@ namespace WorkingWithTextExercises
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Exercise1.Consecutive();
+            Exercise2.Duplicates();
+            Exercise3.CheckingTheTime();
+            Exercise4.PascalCase();
+            Exercise5.HowManyVowels();
         }
+
+
     }
 }
